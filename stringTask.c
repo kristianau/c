@@ -1,6 +1,47 @@
 #include <stdio.h>
 #include <ctype.h>
 
+/*
+* Author: Kristiana Usacka
+* Date: June 7, 2023
+* Description:
+	Scenario
+	Write a program that asks for the IP address in a human readable form, creates three substrings, and prints them.
+
+	These substrings are created from parts 3, 2, and 1 of the last part of the IP address.
+
+	These substrings should be created with the use of pointers or array indexing (whichever you prefer). If a given string doesn't have three dots, then the program should print the message: Error: not a valid address..
+
+	Your program should also check if a given string consists only of digits and dots, and that there are no more than three digits in each block. You don't have to check if the numbers are smaller than 256.
+
+	Note: You can use the isdigit function, but you can also write your own code to check whether or not a character is a digit.
+
+	Your version of the program must print the same result as the expected output.
+
+	Sample input
+	255.255.255.255
+
+	Expected output
+	Last 3 parts: 255.255.255
+	Last 2 parts: 255.255
+	Last 1 part: 255
+
+	Sample input
+	127.0.0.1
+
+	Expected output
+	Last 3 parts: 0.0.1
+	Last 2 parts: 0.1
+	Last 1 part: 1
+
+	Sample input
+	255.2555.255.255
+
+	Expected output
+	Error: not a valid address.
+*/
+
+
 int main()
 {
 	/* your code */
