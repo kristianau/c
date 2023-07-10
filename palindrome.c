@@ -2,9 +2,9 @@
 #include <string.h>
 
 /*
- * Author: Kristiana Usacka
- * Date: July 7, 2023
- * Description:
+* Author: Kristiana Usacka
+* Date: July 7, 2023
+* Description:
     Scenario
     A palindrome is a word (or other sequence of characters) that reads the same backward or forward.
 
